@@ -35,12 +35,10 @@ export const removeData = async (key) => {
 };
 
 // Fill this in later
-export const validateAuthToken = async () => {
+export const isValidAuthToken = async (token) => {
     const tok = await loadData('authToken');
     // validate that ID exists in API
 
+    return true;
     // validate expiration date
-
-
-
 }
